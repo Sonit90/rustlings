@@ -14,7 +14,7 @@
 // No hints this time ;)
 
 fn calculate_price_of_apples(num:i16)-> i16{
-    if(num>40){
+    if num>40 {
         return num;
     }
     return num*2;
